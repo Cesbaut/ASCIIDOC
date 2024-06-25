@@ -1,0 +1,133 @@
+= Document Title
+
+= Illegal Level 0 Section (violates rule #1)
+
+== First Section
+
+==== Illegal Nested Section (violates rule #2)
+
+correcto
+
+== First Section
+
+Content of first section
+
+=== Nested Section
+
+Content of nested section
+
+== Second Section
+
+Content of second section
+
+****
+Discrete headings are useful for making headings inside of other blocks, like this sidebar.
+
+[discrete]
+== Discrete Heading
+
+Discrete headings can be used where sections are not permitted.
+****
+
+'''
+
+---
+
+<<<
+
+Este es *un* texto
+
+_Este es un texto en italica_
+
+`Texto monospace`
+
+#Texto higthlight#
+
+[circle]
+CPU:: The brain of the computer.
+* nivel 1
+** nivel 2
+*** nivel 3
+**** nivel 4
+* nivel 1
+
+Operating Systems::
+  Linux:::
+    . Fedora
+      * Desktop
+    . Ubuntu
+      * Desktop
+      * Server
+  BSD:::
+    . FreeBSD
+    . NetBSD
+
+Cloud Providers::
+  PaaS:::
+    . OpenShift
+    . CloudBees
+  IaaS:::
+    . Amazon EC2
+    . Rackspace
+
+
+The homepage for the Asciidoctor Project is https://www.asciidoctor.org.
+
+[subs=-macros]
+Once launched, the site will be available at https://example.org.
+
+https://asciidoctor.org[]
+
+Type "https://asciidoctor.org[]" into the location bar of your browser.
+
+Chat with other Fedora users in the irc://irc.freenode.org/#fedora[Fedora IRC channel].
+
+Ask questions in the https://chat.asciidoc.org[*community chat*].
+
+Chat with other AsciiDoc users in the https://chat.asciidoc.org[*project chat*^,role=green].
+
+= Document Title
+:link-with-underscores: https://asciidoctor.org/now_this__link_works.html
+
+This URL has repeating underscores {link-with-underscores}.
+
+This URL has repeating underscores pass:macros[https://asciidoctor.org/now_this__link_works.html].
+
+This URL has repeating underscores link:++https://asciidoctor.org/now_this__link_works.html++[].
+
+https://chat.asciidoc.org[Discuss AsciiDoc]
+
+Refer to link:document-b.html#section-b[Section B] for more information.
+
+.gatos
+image::images.jpeg[]
+
+
+.A mountain sunset
+[#img-sunset,link=https://www.flickr.com/photos/javh/5448336655]
+image::sunset.jpg[Sunset,200,100]
+
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
+
+
+|===
+|Shortcut |Purpose
+
+|kbd:[F11]
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+|Open a new tab
+
+|kbd:[Ctrl+Shift+N]
+|New incognito window
+
+|kbd:[\ ]
+|Used to escape characters
+
+|kbd:[Ctrl+\]
+|Jump to keyword
+
+|kbd:[Ctrl + +]
+|Increase zoom
+|===

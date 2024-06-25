@@ -1,0 +1,42 @@
+== Asciidoctor Fx
+
+Texto simple
+
+*Texto en negrita*
+
+Estilo #subrayado de amarillo#
+
+Estilo [underline]#subrayado bajo#
+
+== titulo 2
+=== titulo 3
+==== titulo 4
+
+[source,java]
+----
+Integer num = 3;
+----
+
+Las listas se pueden anidar
+
+. opcion 1
+. opcion 2
+.. subtema de opcion 2
+.. subtema 2 de opcion 2
+. opcion 3
+
+
+.titulo de la tabla
+[cols=2, width="100%", opcions="header"]
+|================
+|Nombre
+|Apellido
+
+|Salvador
+|Dali
+|================
+
+image::https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_1468962.webp?w=1280&h=720[]
+
+* lista no numerada 1
+* lista no numerada 2
